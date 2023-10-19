@@ -26,5 +26,14 @@ MyToken is a basic smart contract that provides the following functionality:
 
 To mint tokens, use the `mint` function. Provide the recipient's address and the number of tokens to mint.
 
+## Burn Tokens
+To burn tokens, use the burn function. Provide the recipient's address and the number of tokens to burn.
+
+# example - 
+myTokenInstance.burn(addressToBurnTokensFrom, 50);
+
+Copy code
+function burn(address _address, uint _value) public
+
 ```solidity
 function mint(address _address, uint _value) public
